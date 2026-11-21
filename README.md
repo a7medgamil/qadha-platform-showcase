@@ -55,6 +55,8 @@ The documented app journey covers eight modules:
 
 See [Product Map](docs/PRODUCT-MAP.md), [High-Level Architecture](docs/ARCHITECTURE.md) and [Evidence & Status](docs/STATUS.md).
 
+**For remote Product / Technical PM roles:** [Product Decisions, Proposed Acceptance Criteria & Evidence Review](docs/PRODUCT-DECISIONS-AND-EVIDENCE.md). This is a recruiter-facing analysis that explicitly separates recorded product decisions from proposed tests and unverified metrics.
+
 ## Ownership and portfolio record
 
 QADHA is developed under Saltrixma LLC. The application source remains in a separate private repository.
