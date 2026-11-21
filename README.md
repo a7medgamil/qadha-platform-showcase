@@ -59,6 +59,8 @@ See [Product Map](docs/PRODUCT-MAP.md), [High-Level Architecture](docs/ARCHITECT
 
 ## Ownership and portfolio record
 
+**Independent synthetic engineering proof:** [Battle Rules Lab](demo/battle-rule-lab/README.md) · [Engineering scope and provenance](docs/INDEPENDENT-BATTLE-RULES-ENGINEERING.md). A separate, fake-only offline demo; not QADHA production or production verification.
+
 QADHA is developed under Saltrixma LLC. The application source remains in a separate private repository.
 
 - [QADHA public product website](https://qadhaapp.com)
