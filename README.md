@@ -2,7 +2,17 @@
 
 QADHA is the flagship digital product developed under Saltrixma LLC. It brings vertical video, social interaction, messaging, live-format discovery, team participation and structured competition into one connected mobile experience, supported by an internal operations console.
 
-> **Publication boundary:** this is a public product case study only. Application source, internal product bibles, prompts, sales materials, credentials, databases and customer data remain private.
+> **Publication boundary:** public product case study **plus an original, independent synthetic Battle Rules Lab**. The lab is not QADHA application source and does not prove production behavior. Private application code, internal materials, credentials, databases and customer data remain private.
+
+## Independent runnable engineering proof
+
+The [Battle Rules Lab](demo/battle-rule-lab/README.md) implements an original fictional competition state engine with two invented teams, version-checked decisions, idempotent retries, time-gated transitions, simulated staff/participant policy and an in-memory audit. It is **not** a production QADHA app, real authentication, live competition, distributed lock, video service or payment system.
+
+**QA record (21 November 2026):** 36/36 independently rerun Node tests and 60/60 Chrome desktop/mobile browser assertions passed; [GitHub Actions on the published main branch also passed](https://github.com/a7medgamil/qadha-platform-showcase/actions/runs/44896934520). Source, [local QA report](demo/battle-rule-lab/QA_REPORT.md), [engineering provenance](docs/INDEPENDENT-BATTLE-RULES-ENGINEERING.md) and [mobile screenshot](demo/battle-rule-lab/screenshots/mobile-390.png) are public.
+
+[![Original fictional Battle Rules Lab — desktop preview](demo/battle-rule-lab/screenshots/desktop-1440.png)](demo/battle-rule-lab/README.md)
+
+*This simulation is deliberately offline with fictional records. Its tests cannot establish QADHA's production authorization, fairness, media delivery or availability.*
 
 ## Product model
 
@@ -58,8 +68,6 @@ See [Product Map](docs/PRODUCT-MAP.md), [High-Level Architecture](docs/ARCHITECT
 **For remote Product / Technical PM roles:** [Product Decisions, Proposed Acceptance Criteria & Evidence Review](docs/PRODUCT-DECISIONS-AND-EVIDENCE.md). This is a recruiter-facing analysis that explicitly separates recorded product decisions from proposed tests and unverified metrics.
 
 ## Ownership and portfolio record
-
-**Independent synthetic engineering proof:** [Battle Rules Lab](demo/battle-rule-lab/README.md) · [Engineering scope and provenance](docs/INDEPENDENT-BATTLE-RULES-ENGINEERING.md). A separate, fake-only offline demo; not QADHA production or production verification.
 
 QADHA is developed under Saltrixma LLC. The application source remains in a separate private repository.
 
