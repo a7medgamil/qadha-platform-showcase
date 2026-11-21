@@ -83,7 +83,7 @@ Any future number requires date range, numerator/denominator, known exclusions, 
 **Key system principle:** competition authority belongs to the server; test economy and operations remain clearly separated.  
 **Current proof:** a public product map, architecture and status record.  
 **Current limitations:** published material does not prove media scalability, payment readiness, usage growth, or direct authorship of all code.  
-**Next credible proof:** approved demo recordings, an independently verifiable synthetic implementation of a bounded rule, and traced engineering QA on the private branch.
+**Current independently reproducible proof:** the [original synthetic Battle Rules Lab](../demo/battle-rule-lab/README.md) with 36 Node tests, 60 Chrome assertions and [published main CI](https://github.com/a7medgamil/qadha-platform-showcase/actions/runs/44896934520). **Next separate proof:** private-code full acceptance, plus approved recordings/media and relevant rights clearance.
 
 ### Source of truth
 
@@ -91,7 +91,7 @@ Any future number requires date range, numerator/denominator, known exclusions, 
 - [Product map](PRODUCT-MAP.md)
 - [High-level architecture](ARCHITECTURE.md)
 - [QADHA case study](../README.md)
-- [Engineering QA draft PR (private; available only to authorized reviewers)](https://github.com/a7medgamil/qadha-platform/pull/1). **It is not merged and GitHub Actions has no recorded runs in that repository; local QA figures must not be described as completed public CI.**
+- [Private engineering QA PR #1 (authorized reviewers only)](https://github.com/a7medgamil/qadha-platform/pull/1) and [current private-source acceptance gates](https://github.com/a7medgamil/qadha-platform/issues/2). Private GitHub Actions have recorded CI runs, including a full disposable-database workflow; **the existence of those runs does not establish a green full acceptance or production release**. Results may change after this dated public record and are not accessible to anonymous reviewers. Do not count the private-code checks as the public Battle Rules Lab's CI.
 
 **Release boundary:** no private implementation, internal URLs, credentials, customer information, real transactions or unapproved artwork is contained in this document.
 
